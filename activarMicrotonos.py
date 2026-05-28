@@ -63,7 +63,7 @@ while ejecutando:
                 microtonos_libres += cantidad
                 microtonos_activos -= cantidad
                 print(f"Recuperaste {cantidad} de microtonos para ser usados en otro momento")
-                winsound.beep(440,150)
+                winsound.Beep(440,150)
         except ValueError:
             print("Error, debes colocar un número entero")
     elif opcion == 4:
